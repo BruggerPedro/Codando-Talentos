@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!----Definição ---->
+<html lang="en-US" style="text-align: center;">
+<head>
+    <!----Título---->
+    <title>Project</title>
+    <!----Fontes---->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+
+</head>
+<!----Pula linha(hr)---->
+<hr>
+<hr>
+    <!----Cabeçalho(h1,h2,h3,...)---->
+    <h1>Portfolio</h1>
+    <hr>
+    <!----Fonte---->
+    <body style="font-family: 'Krona One', sans-serif;">
+    <hr>
+        <h2>Apresentation</h2>
+        <!----Imagens(salvar foto na pasta do arquivo.html, alt=comentário na foto, width e height= dimensão da imagem)---->
+        <img title="o brabo tem nome" src="./IMG_0236.JPG" alt="..." width="" height="250">
+        <hr>
+            <!----Parágrafo(p)---->
+            <p><b>Name:</b> <em>Pedro Murilo Brügger</em><br></p>
+            <hr>
+            <p><b>Languages speak:</b> <em>Portuguese, English and German</em><br></p>
+            <hr>
+            <!----Utilização de abreviação nas palavras, como em CSS(Cascading Style Sheet)---->
+            <p><b>Programming languages:</b> <em>C, <abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheet">CSS</abbr> and JavaScript</em><br></b></p>
+            <hr>
+            <p><b>Age:</b> 19<br></p>
+            <hr>
+            <!----Utilização de cores ---->
+            <p style="color: blue"><b style="color: black">Course:</b> <em>Computer Science - <abbr title="Universidade Federal de Uberlândia">UFU</abbr></em><br></p>
+                <!----Utilização do link escrito transparente ao passar o mouse---->
+                <a href="http://www.portal.facom.ufu.br"><img title="MELHOR ATLÉTICA DO MUNDO" src="./AtléticaCompUFU.jpg" alt="CompUFU" width="" height="142"><br></a>
+                <hr>
+            <!----Utilização da abertura do endereço de email direto na caixa de email do pc---->
+            <p><b>Email:</b> <em><a href="mailto:Pedromurilobrugger@hotmail.com">Pedromurilobrugger@hotmail.com</a><br></em></p>
+            <hr>
+            <p><b>Link GitHub:</b> <em><a href="https://github.com/BruggerPedro" target="_blank">BruggerPedro<br></a></em></p>
+            <hr>
+            <!----Abertura do link em outra janela(_blank)---->
+            <p><b>Link LinkedIn:</b> <em><a href="https://www.linkedin.com/in/pedro-murilo-brügger-65295b210/"target="_blank">Pedro Brügger<br><a></em></p> 
+            <hr>
+                <!----Utilização de endereço---->
+                <address>
+                    Guararapes 410, Cidade Jardim<br>
+                    Brazil
+                </address>
+                <hr>
+                    <!----Utilização da escrita reversa(como em palíndromo) ---->
+                    <bdo dir="rtl">socorram-me, subi no ônibus em marrocos<br></bdo>
+                    <hr>
+                    <hr>
+                        <!----Utilização dos botões click---->
+                        <button onclick='document.location="https://click-storm.com/matchmaking/chess/?utm_source=opera&utm_medium=referral&utm_campaign=operabrazil_browser_button"'>Chess</button>
+                        <button onclick='document.location="https://www.wikipedia.org"'>Wikipedia</button>  
+</body>
+</html>
