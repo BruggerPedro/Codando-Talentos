@@ -1,1 +1,1 @@
-Primeiro código tester de html, testando as funções.
+Primeiro código teste de html, testando as funções.
