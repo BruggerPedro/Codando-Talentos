@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US" style="text-align: center; background:rgba(4, 2, 109, 0.795)">
+<head>
+    
+    <title>Página FioCruz - Login</title>
+
+    <style>
+        body 
+        {
+            border: 2px solid rgba(10, 10, 10, 0.507);
+            padding: 50px 32px;
+            margin: 100px 500px 100px 500px;
+            box-shadow: 1px 1px 3px 3px rgba(14, 13, 13, 0.253);
+            background-color: rgb(201, 201, 201);
+        }
+    </style>
+    
+</head>
+
+    <h1>FioCruz - Page Login</h1> 
+    <img title="image" src="fiocruzBanner.jpg" alt="..." width="440" height="208"><br><br>
+
+<body>
+        <form action="/action_page.php">
+            <label for="fname"><b>Login:</b></label><br>
+            <input type="text" id="fname" placeholder="Enter your email" name="fname"><br><br>
+            <label for="lname"><b>Password:</b></label><br>
+            <input type="password" id="lname" placeholder="Enter your password" name="lname"><br>
+            <a href="https://www.google.com/%22%3E"> Forgot your password?</a> <br><br> 
+            <input type="submit" value="Submit">
+        </form><br> 
+         
+        <p><button onclick='document.location="http://www.sourceinnovation.com.br/wiki/Codando_Talentos"'target="_blank"'>Sign up</button></p><br>
+           
+                <ul>
+                    <p>This login website is most simple project in HTML.</p>
+                    <p><b>&copy; Created by Pedro Brügger</b></p>
+                </ul>  
+</body>
