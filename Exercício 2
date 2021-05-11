@@ -30,7 +30,7 @@
         <input type="password" id="fname" placeholder="Confirm your password" name="fname"><br><br>
         <input type="submit" value="Submit">
      </form><br> 
-     <p>Back to the previous page <a href="https://www.google.com/%22%3E"> Click here</a> <br><br> </p>
+     <p>Back to the previous page <a href="http://127.0.0.1:5500/project1.html"> Click here</a> <br><br> </p>
            <ul>
                <p>This register website is most simple project in HTML.</p>
                <p><b>&copy; Created by Pedro Brügger</b></p>
