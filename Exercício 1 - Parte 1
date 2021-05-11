@@ -30,7 +30,7 @@
             <input type="submit" value="Submit">
         </form><br> 
          
-        <p><button onclick='document.location="http://www.sourceinnovation.com.br/wiki/Codando_Talentos"'target="_blank"'>Sign up</button></p><br>
+        <p>Click this button to register <button onclick='document.location="http://www.sourceinnovation.com.br/wiki/Codando_Talentos"'target="_blank"'>Register</button></p><br>
            
                 <ul>
                     <p>This login website is most simple project in HTML.</p>
