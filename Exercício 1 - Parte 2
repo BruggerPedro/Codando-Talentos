@@ -16,7 +16,7 @@
     </style>
 </head>
 <body>
-    <h1>FioCruz - Sign in Page </h1><br><br>
+    <h1>FioCruz - Resgister Page </h1><br><br>
     <form action="/action_page.php">
         <label for="fname"><b>First Name:</b></label><br>
         <input type="text" id="fname" placeholder="Enter your first name" name="fname"><br><br>
@@ -32,7 +32,7 @@
      </form><br> 
      <p>Back to the previous page <a href="https://www.google.com/%22%3E"> Click here</a> <br><br> </p>
            <ul>
-               <p>This login website is most simple project in HTML.</p>
+               <p>This register website is most simple project in HTML.</p>
                <p><b>&copy; Created by Pedro Brügger</b></p>
            </ul>  
 </body>
