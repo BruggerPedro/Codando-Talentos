@@ -25,7 +25,7 @@
         <label for="fname"><b>Email:</b></label><br>
         <input type="text" id="fname" placeholder="Enter your email" name="fname"><br><br>
         <label for="lname"><b>Password:</b></label><br>
-        <input type="passowrd" id="lname" placeholder="Enter your password" name="lname"><br><br>
+        <input type="password" id="lname" placeholder="Enter your password" name="lname"><br><br>
         <label for="fname"><b>Confirm password:</b></label><br>
         <input type="password" id="fname" placeholder="Confirm your password" name="fname"><br><br>
         <input type="submit" value="Submit">
