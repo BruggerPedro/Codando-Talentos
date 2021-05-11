@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US" style="text-align: center; background:rgba(4, 2, 109, 0.795)">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Página FioCruz - Login</title>
 
