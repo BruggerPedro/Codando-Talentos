@@ -16,10 +16,29 @@
             box-shadow: 1px 1px 3px 3px rgba(14, 13, 13, 0.253);
             background-color: rgb(201, 201, 201);
         }
+        .button 
+        {
+                    border: none;
+                    border-radius: 5px;
+                    color: white;
+                    background-color: rgb(2, 37, 88);
+                    padding: 10px 13px; 
+                    margin: 4px 2px;
+        }
     </style>
     <body>
-        <h1>FioCruz - Confirmação de senha</h1><br><br>
-        <p style="color: red">Your code is confirmed! Please return or login page.</p><br><br>
+        <h1>FioCruz - Password Recovery Page </h1><br><br>
+        <form action="/action_page.php">
+            <label for="fname"><b>Registered Email in your account:</b></label><br><br>
+            <input type="text" id="fname" placeholder="Enter your email" name="fname"><br><br>
+            <input class="button"; type="submit" value="Send"><br><br>
+            <p style="color: red">We will send you an email with a verification code, your account details and confirmation of the password change. Next, confirm the code sent to your email!</p><br>
+        </form>
+        <form action="http://127.0.0.1:5500/Project2-2.html">
+            <label for="fname"><b>Code Confirmation:</b></label><br><br>
+            <input type="text" id="fname" placeholder="Enter your code" name="fname"><br><br>
+            <input class="button"; type="submit" value="Enter"><br><br>
+        </form>
         <p>Back to the previous page <a href="http://127.0.0.1:5500/project1.html"> Click here</a><br></p>
            
                 <ul>
