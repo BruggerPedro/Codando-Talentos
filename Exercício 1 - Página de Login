@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US" style="text-align: center; background:rgba(4, 2, 109, 0.795)">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    
+    <title>Página FioCruz - Login</title>
+    
+    <style>
+        body 
+        {
+            border: 2px solid rgba(10, 10, 10, 0.507);
+            padding: 50px 32px;
+            margin: 100px 500px 100px 500px;
+            box-shadow: 1px 1px 3px 3px rgba(14, 13, 13, 0.253);
+            background-color: rgb(201, 201, 201);
+        }
+        .button 
+        {
+                    border: none;
+                    border-radius: 5px;
+                    color: white;
+                    background-color: rgb(2, 37, 88);
+                    padding: 10px 13px; 
+                    margin: 4px 2px;
+        }
+    </style>
+
+    <h1>FioCruz - Login Page</h1> 
+    <img title="FioCruz" src="fiocruzBanner.jpg" alt="..." width="440" height="208"><br><br>
+
+<body>
+        <form action="/action_page.php">
+            <label for="fname"><b>Login:</b></label><br>
+            <input type="text" id="fname" placeholder="Enter your name or email" name="fname"><br><br>
+            <label for="lname"><b>Password:</b></label><br>
+            <input type="password" id="lname" placeholder="Enter your password" name="lname"><br>
+            <a href="http://127.0.0.1:5500/project2-1.html"> Forgot your password?</a> <br><br> 
+            <input class="button"; type="submit" value="Enter">
+        </form><br> 
+         
+        <p>Click this button to register <button class="button"; onclick='document.location="http://127.0.0.1:5500/project2.html"'>Register</button></p><br>
+           
+                <ul>
+                    <p>This login website is most simple project in HTML.</p>
+                    <p><b>&copy; Created by Pedro Brügger</b></p>
+                </ul>  
+                <iframe src="" height="200" width="500" title="Register Page"></iframe>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</head>
