@@ -3,6 +3,8 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    
     <title>Página FioCruz - Cadastro</title>
 
     <style>
@@ -14,26 +16,51 @@
             box-shadow: 1px 1px 3px 3px rgba(14, 13, 13, 0.253);
             background-color: rgb(201, 201, 201);
         }
+        .button 
+        {
+                    border: none;
+                    border-radius: 5px;
+                    color: white;
+                    background-color: rgb(2, 37, 88);
+                    padding: 10px 13px; 
+                    margin: 4px 2px;
+        }
     </style>
-</head>
-<body>
-    <h1>FioCruz - Resgister Page </h1><br><br>
-    <form action="/action_page.php">
-        <label for="fname"><b>First Name:</b></label><br>
-        <input type="text" id="fname" placeholder="Enter your first name" name="fname"><br><br>
-        <label for="fname"><b>Second Name:</b></label><br>
-        <input type="text" id="fname" placeholder="Enter your second name" name="fname"><br><br>
-        <label for="fname"><b>Email:</b></label><br>
-        <input type="text" id="fname" placeholder="Enter your email" name="fname"><br><br>
-        <label for="lname"><b>Password:</b></label><br>
-        <input type="password" id="lname" placeholder="Enter your password" name="lname"><br><br>
-        <label for="fname"><b>Confirm password:</b></label><br>
-        <input type="password" id="fname" placeholder="Confirm your password" name="fname"><br><br>
-        <input type="submit" value="Submit">
-     </form><br> 
-     <p>Back to the previous page <a href="http://127.0.0.1:5500/project1.html"> Click here</a> <br><br> </p>
-           <ul>
-               <p>This register website is most simple project in HTML.</p>
-               <p><b>&copy; Created by Pedro Brügger</b></p>
-           </ul>  
+    <body>
+        <h1>FioCruz - Register Page </h1><br><br>
+        <form>
+            <label for="fname"><b>First Name:</b></label><br>
+            <input type="text" id="fname" placeholder="Enter your first name" name="fname"><br><br>
+        </form>
+        <form>
+            <label for="fname"><b>Second Name:</b></label><br>
+            <input type="text" id="fname" placeholder="Enter your second name" name="fname"><br><br>
+        </form>
+        <form>
+            <label for="fname"><b>Email:</b></label><br>
+            <input type="text" id="fname" placeholder="Enter your email" name="fname"><br><br>
+        </form>
+        <form>
+            <label for="fname"><b>Login Name:</b></label><br>
+            <p style="color: red;">Your login name cannot be changed after confirmation!</p>
+            <input type="text" id="fname" placeholder="Enter your login name" name="fname"><br><br>
+        </form>
+        <form>
+            <label for="fname"><b>Password:</b></label><br>
+            <input type="password" id="fname" placeholder="Enter your password" name="fname"><br><br>
+        </form>
+        <form action="/action_page.php">
+            <label for="fname"><b>Confirm password:</b></label><br>
+            <input type="password" id="fname" placeholder="Confirm your password" name="fname"><br><br>
+            <input class="button"; type="submit" value="Enter">
+        </form><br> 
+        <p>Back to the previous page <a href="http://127.0.0.1:5500/project1.html"> Click here</a> <br><br> </p>
+                <ul>
+                    <p>This register website is most simple project in HTML.</p>
+                    <p><b>&copy; Created by Pedro Brügger</b></p>
+                </ul>
+                
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
 </body>
+</head>
