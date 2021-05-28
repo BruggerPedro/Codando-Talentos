@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body, 
+ul, 
+li, 
+p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+.logo{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;  
+    margin-top: 100px; 
+
+}
+
+.header {
+    background: #5f6063;
+    background-image: linear-gradient(to left, #5f6063, #ffffff);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.header2{
+    background-color: #5f6063;
+    background-image: linear-gradient(to left, #5f6063, #ffffff);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+img{
+    height: 120px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.479);
+}
+.button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(2, 37, 88);
+    padding: 10px 13px; 
+    margin: 4px 2px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 0 auto;
+    
+}
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.sombra{
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    box-shadow: 0px 0px 8px 5px;
+}
+
+input
+{
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    transition: 0.2s; 
+}
+
+input:hover
+{
+    border-color: rgb(44, 130, 241);
+}
+
+input:focus
+{
+    border-color: rgb(44, 130, 241);
+    background-color: rgb(253, 249, 249);
+    outline-style: none;
+    outline-color: none;
+    box-shadow: 0px 0px 7px rgba(44, 130, 241);
+}
+
+input::placeholder{
+    padding: 6px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+label{
+    float: left;
+    display: flex;
+    margin-bottom: 10px;
+}
+.git{
+    height: 20px;
+    width: 20px;
+
+}
+
+p{
+    color: rgba(7, 11, 243, 0.377);
+    padding: 15px;
+    font-size: 18px;
+}
+.letter{
+    color: rgb(255, 0, 0);
+    padding: 5px;
+    font-size: 14px;
+}
